@@ -1,1 +1,21 @@
 /* clases para darle mas vista al nav*/
+html{
+  scroll-behavior: smooth;
+}
+.menus{
+  border:0;
+  background: rgba(0,0,0,.5);
+}
+.menus li a{
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+.selectMenu:hover{
+  border-left: 1px solid #fff;
+  padding-left: 10px;
+}
+.card:hover{
+  transform: scale(1.05);
+  transition: 1s all;
+  cursor: pointer;
+}

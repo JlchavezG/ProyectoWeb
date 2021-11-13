@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <title>Navbar | Menu web</title>
+    <title>Pagina Principal | Proyecto web UHAB</title>
   </head>
   <body>
     <!-- inicia navbar -->
@@ -57,7 +57,7 @@
 <section id="Servicios">
 <div class="container">
    <div class="row py-4 text-center">
-        <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="col-sm-12 col-md-4 col-lg-4 py-3">
            <div class="card shadow">
               <img src="img/Card4.png" alt="Servicio1" class="card-img-top">
               <div class="card-body">
@@ -66,7 +66,7 @@
               </div>
            </div>
         </div>
-        <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="col-sm-12 col-md-4 col-lg-4 py-3">
           <div class="card shadow">
              <img src="img/Card2.png" alt="Servicio1" class="card-img-top">
              <div class="card-body">
@@ -75,9 +75,9 @@
              </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="col-sm-12 col-md-4 col-lg-4 py-3">
           <div class="card shadow">
-             <img src="img/Card3.png" alt="Servicio1" class="card-img-top">
+             <img src="img/Card2.png" alt="Servicio1" class="card-img-top">
              <div class="card-body">
                 <h5 class="card-title">Servicio 3</h5>
                 <a href="#" class="btn btn-sm btn-primary">Más Información</a>
@@ -90,7 +90,7 @@
 <!-- terminan tarjetas de servicio -->
 <!-- inicia seción somos -->
 <section id="Somos">
-    <div class="container">
+    <div class="container mt-4">
          <div class="row">
               <div class="col-sm-10 col-md-6 col-lg-6">
                  <h2 class="diplay-6">Somos</h2>
@@ -124,6 +124,35 @@
     </div>
 </section>
 <!-- termina somos -->
+<!-- equipo-->
+<section id="Equipo">
+     <div class="container">
+       <div class="row py-4 mt-5">
+            <h2 class="text-center display-6">Equipo de trabajo</h2>
+             <div class="col">
+                <div class="card shadow">
+                     <h4 class="text-center">Samantha</h4>
+                </div>
+             </div>
+             <div class="col">
+               <div class="card shadow">
+                    <h4 class="text-center">Angel</h4>
+               </div>
+             </div>
+             <div class="col">
+               <div class="card shadow">
+                    <h4 class="text-center">Cristopher</h4>
+               </div>
+             </div>
+             <div class="col">
+               <div class="card shadow">
+                    <h4 class="text-center">Joshrpth</h4>
+               </div>
+             </div>
+       </div>
+     </div>
+</section>
+<!-- termina el team-->
   <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

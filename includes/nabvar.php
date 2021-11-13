@@ -13,30 +13,30 @@
       <div class="collapse navbar-collapse flex-grow-1 text-right" id="MyMenu">
         <ul class="navbar-nav ms-auto flex-nowrap">
           <li class="nav-item">
-            <a href="#" class="nav-link active">
+            <a href="#" class="nav-link active selectMenu">
               <svg class="bi" width="17" height="17" fill="currentColor">
                  <use xlink:href="library/icons/bootstrap-icons.svg#house-door"/>
               </svg> Inicio</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="#Somos" class="nav-link selectMenu">
               <svg class="bi" width="17" height="17" fill="currentColor">
                  <use xlink:href="library/icons/bootstrap-icons.svg#award-fill"/>
               </svg> ¿Quienes somos?</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"><svg class="bi" width="17" height="17" fill="currentColor">
+            <a href="#Equipo" class="nav-link selectMenu"><svg class="bi" width="17" height="17" fill="currentColor">
                <use xlink:href="library/icons/bootstrap-icons.svg#briefcase-fill"/>
             </svg> Equipo</a>
           </li>
-          <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item dropdown menus">
+              <a href="#" class="nav-link dropdown-toggle selectMenu" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <svg class="bi" width="17" height="17" fill="currentColor">
                    <use xlink:href="library/icons/bootstrap-icons.svg#bag-plus"/>
                 </svg> Servicios</a>
               <ul class="dropdown-menu menus" aria-labelledby="navbarDropdown">
                  <li>
-                   <a href="#" class="dropdown-item"><svg class="bi" width="17" height="17" fill="currentColor">
+                   <a href="#" class="dropdown-item selectMenu"><svg class="bi" width="17" height="17" fill="currentColor">
                       <use xlink:href="library/icons/bootstrap-icons.svg#gear-fill"/>
                    </svg> Soporte Tecnico</a>
                  </li>
