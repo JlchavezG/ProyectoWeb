@@ -128,25 +128,25 @@
 <section id="Equipo">
      <div class="container">
        <div class="row py-4 mt-5">
-            <h2 class="text-center display-6">Equipo de trabajo</h2>
+            <h2 class="text-center display-6 mt-3">Equipo de trabajo</h2>
              <div class="col">
-                <div class="card shadow">
+                <div class="card shadow mt-3">
                      <h4 class="text-center">Samantha</h4>
                 </div>
              </div>
              <div class="col">
-               <div class="card shadow">
+               <div class="card shadow mt-3">
                     <h4 class="text-center">Angel</h4>
                </div>
              </div>
              <div class="col">
-               <div class="card shadow">
+               <div class="card shadow mt-3">
                     <h4 class="text-center">Cristopher</h4>
                </div>
              </div>
              <div class="col">
-               <div class="card shadow">
-                    <h4 class="text-center">Joshrpth</h4>
+               <div class="card shadow mt-3">
+                    <h4 class="text-center">Joshepth</h4>
                </div>
              </div>
        </div>
