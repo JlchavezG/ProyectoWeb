@@ -29,6 +29,11 @@
                <use xlink:href="library/icons/bootstrap-icons.svg#briefcase-fill"/>
             </svg> Equipo</a>
           </li>
+          <li class="nav-item">
+            <a href="login.php" class="nav-link selectMenu"><svg class="bi" width="17" height="17" fill="currentColor">
+               <use xlink:href="library/icons/bootstrap-icons.svg#key-fill"/>
+            </svg> Login</a>
+          </li>
           <li class="nav-item dropdown menus">
               <a href="#" class="nav-link dropdown-toggle selectMenu" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <svg class="bi" width="17" height="17" fill="currentColor">

@@ -1,0 +1,171 @@
+html{
+  scroll-behavior: smooth;
+}
+.mynavbar{
+  background-color:rgb(33, 97, 140);
+  color:#fff;
+}
+.mynavbarscroll{
+  background-color:rgba(33, 97, 140,0.9);
+  color:#fff;
+}
+/*Estilo para adaptar el scroll de la barra de navegación */
+section[id]{
+  scroll-margin-top: 80px;
+}
+/* estilos para dropdown */
+.menus{
+  border: 0;
+  background: rgba(33, 97, 140,0.8);
+}
+.menus li a{
+  border-bottom: 1px solid #fff;
+  color:#fff;
+}
+.menus li a:hover{
+  background:rgb(93, 173, 226);
+  color:#fff;
+}
+/* estilos para cards */
+.card:hover{
+  transform: scale(1.05);
+  transition: 1s all;
+}
+/* estilos para barra social */
+.social-icons {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+}
+.btn-social {
+  cursor: pointer;
+  width: 50px; height: 50px;
+  border-radius: 50px;;
+}
+.social-icons .navbar-nav li {
+  position: absolute;
+  bottom: 0; z-index: -1;
+  transition: .2s all;
+}
+.social-icons .navbar-nav.show li:nth-child(1){
+  bottom: 60px;
+}
+.social-icons .navbar-nav.show li:nth-child(2){
+  bottom: 120px;
+}
+.social-icons .navbar-nav.show li:nth-child(3){
+  bottom: 180px;
+}
+/* estilo ofcanvas*/
+.valores{
+  background-color: rgba(255,255,255,0.3);
+  backdrop-filter:blur(9px);
+  border: solid 1px rgba(255,255,255,0.5);
+  border-radius: 10px;
+}
+.glass{
+  background-color: rgba(255,255,255,0.3);
+  backdrop-filter:blur(25px);
+  border: solid 1px rgba(255,255,255,0.5);
+  border-radius: 10px;
+}
+.selectMenu:hover{
+  border-left: 1px solid #fff;
+  padding-left:10px;
+  transform: scale(1.05);
+  transition: 0.5s all;
+}
+.banner{
+  background-image:url(../img/fondo_banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: inherit;
+  transition: 2s all;
+}
+.banner:hover{
+  background-image:url(../img/fondo_banner2.png);
+  transition: 2s all;
+}
+.banner2{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+  url(../img/banners1.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.justificado{
+  text-align: justify;
+}
+/*boton ir arriba*/
+.ir-arriba {
+	display:none;
+	padding:15px;
+	background:rgba(11, 69, 114,.5);
+	font-size:10px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+  border-radius: 5px;
+	bottom:20px;
+	right:20px;
+  z-index: 10000;
+
+}
+/* mapa*/
+#map{
+    margin: auto;
+    margin-right:0px;
+    padding: 40px;
+    height: 450px;
+    width: 100%;
+      }
+/* working*/
+.working{
+  background-image:linear-gradient(rgba(24, 98, 150, 0.5),rgba(24, 98, 150, 0.5)),url(../img/working.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* cajas */
+.cajas{
+  background: transparent;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #fff;
+  color:#fff;
+}
+.cajas::placeholder {
+   color: #fff;
+}
+.cajas:focus{
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  border-bottom: 2px solid #fbb728;
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  transition: 2s;
+}
+/* imagen perfil */
+.imgperfil{
+  background-color: #5288d0;
+}
+.imgperfil:hover{
+  background-color: rgba(255,255,255,.5);
+  border: 1px solid grey;
+}
+.menubtn:hover{
+  transform: translateY(-15px);
+  transition: 1s;
+  text-shadow: 2px 2px 3px #5288d0;
+}
+.justifycado{
+  text-align: justify;
+  padding: 2px;
+
+}

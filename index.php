@@ -1,6 +1,4 @@
-<?php
-  include 'includes/Conecta.php';
- ?>
+<?php include 'includes/coment.php'; ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
@@ -303,23 +301,24 @@
                 </div>
                 <div class="row py-2">
                    <div class="col">
-                      <input type="email" name="Email" placeholder="Correo Electronico" required class="form-control">
+                      <input type="email" name="email" placeholder="Correo Electronico" required class="form-control">
                    </div>
                 </div>
                 <div class="row py-2">
                    <div class="col">
-                      <input type="tel" name="Telefono" placeholder="Telefono" required class="form-control">
+                      <input type="tel" name="telefono" placeholder="Telefono" required class="form-control">
                    </div>
                 </div>
                 <div class="row py-2">
                    <div class="col">
-                     <textarea name="Mensaje" placeholder="Tu mensaje" class="form-control"></textarea>
+                     <textarea name="mensaje" placeholder="Tu mensaje" class="form-control"></textarea>
                    </div>
                 </div>
                 <div class="row py-2">
                    <div class="col">
-                     <input type="submit" name="Mensaje" value="Mensaje" class="btn btn-sm btn-primary">
+                     <input type="submit" name="Enviar" value="Enviar" class="btn btn-sm btn-primary">
                    </div>
+                   <?php echo $mensaje; ?>
                 </div>
              </form>
            </div>
@@ -329,6 +328,31 @@
        </div>
     </div>
 </section>
+<style>
+#map{
+  margin: auto;
+  margin-right: 0px;
+  padding: 40px;
+  height: 450px;
+  width: 100%;
+}
+</style>
+<script>
+var map;
+var cord = {lat: 19.3290293, lng: -99.1272892} ;
+ function initMap() {
+   map = new google.maps.Map(document.getElementById('map'), {
+     center: {lat: 19.3290293, lng: -99.1272892},
+     zoom: 14
+   });
+var marker = new google.maps.Marker({
+   position:cord,
+   map:map,
+   title: 'Universidad'
+});
+}
+</script>
   <script src="js/bootstrap.min.js"></script>
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYMPGtM7VUn1aq61tkGbu99qD95c-w5zc&callback=initMap"></script>
   </body>
 </html>
